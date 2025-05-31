@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  padding: 8px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #00bcd4;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.hover-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-title:hover {
+  transform: scale(1.05);
+  color: #00bcd4;
+}
+
+.hover-para {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  transition: color 0.3s ease;
+}
+
+.hover-para:hover {
+  color: #00796b;
+}
+
+.hover-list li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  transition: background 0.3s, transform 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hover-list li:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.02);
+}
+
+.hover-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hover-form input,
+.hover-form textarea {
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hover-form button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hover-form button:hover {
+  background-color: #0097a7;
+}
+
+.animation {
+  height: 100px;
+  margin: 20px auto;
+  width: 100%;
+  background: linear-gradient(135deg, #00bcd4, #00796b);
+  border-radius: 10px;
+  opacity: 0.5;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.animation:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
